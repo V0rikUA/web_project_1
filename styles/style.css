@@ -62,6 +62,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2F80ED;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -105,6 +106,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2F80ED;
 }
 
 .two-columns__main-text {
@@ -209,6 +211,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  margin: 0;
 }
 
 .feynman__subtitle {
@@ -226,6 +229,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2F80ED;
 }
 
 .feynman__image {
@@ -248,16 +252,15 @@
   overflow: hidden;
 }
 
-.kaufman-title_theme_dark {
+.section-title_theme_dark {
   color: white;
 }
 
-.kaufman-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
 }
 
 .table_theme_dark {
-  justify-content: space-between;
   row-gap: 0;
   padding-bottom: 90px;
 }
@@ -282,7 +285,7 @@
   margin: 80px 0 0 0;
 }
 
-.table__cell_text_dark{
+.table__text_dark{
   margin: 0;
 }
 
