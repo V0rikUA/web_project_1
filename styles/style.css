@@ -1,11 +1,3 @@
-h1, h2, h3, h4, h5, h6,
-a, p, span, ul, ol, li, div,
-section, article, main, nav,
-header, footer, img, figure, table{
-   margin: 0;
-   padding: 0;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -36,7 +28,7 @@ header, footer, img, figure, table{
 }
 
 .logo {
-  max-width: 154px;
+  width: 154px;
   height: 31px;
 }
 
@@ -49,10 +41,13 @@ header, footer, img, figure, table{
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
+
 }
 
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -68,8 +63,8 @@ header, footer, img, figure, table{
 }
 
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+  min-height: 568px;
+  min-width: 568px;
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
@@ -101,7 +96,7 @@ header, footer, img, figure, table{
 }
 
 .two-columns__brief {
-  margin: 0px;
+  margin: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -140,8 +135,8 @@ header, footer, img, figure, table{
 .section-title {
   width: 60%;
   margin: 0;
+  padding: 0 0 20px 0;
   text-align: center;
-  padding-bottom: 20px;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -150,7 +145,7 @@ header, footer, img, figure, table{
 .section-subtitle {
   width: 60%;
   margin: 0;
-  padding-bottom: 60px;
+  padding: 0 0 60px 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -161,7 +156,7 @@ header, footer, img, figure, table{
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 0 100px 0;
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-start;
@@ -203,7 +198,8 @@ header, footer, img, figure, table{
 
 .feynman__title {
   width: 775px;
-  padding-top: 100px;
+  padding: 100px 0 0 0;
+  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -212,7 +208,8 @@ header, footer, img, figure, table{
 }
 
 .feynman__subtitle {
-  padding-top: 70px;
+  padding: 70px 0 0 0;
+  margin: 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -240,7 +237,7 @@ header, footer, img, figure, table{
 }
 
 .kaufman {
-  background-color: #000000;
+  background-color: #1F1F1F;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,12 +247,17 @@ header, footer, img, figure, table{
 }
 
 .section-title_theme_dark {
-  padding-top: 90px;
+  padding: 90px 0 20px 0;
+  margin: 0;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
+  padding: 0;
+  margin: 0;
   color: white;
+  z-index: 1;
 }
 
 .table_theme_dark {
@@ -273,13 +275,14 @@ header, footer, img, figure, table{
 }
 
 .table__cell_theme_dark {
-  width: 200px;
+  padding: 80px 0 0 0;
+  max-width: 200px;
   color: white;
   margin: 0;
 }
 
 .table__heading_theme_dark{
-  margin: 80px 0 0 0;
+  margin: 0;
 }
 
 .table__text_theme_dark{
@@ -287,17 +290,17 @@ header, footer, img, figure, table{
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #1F1F1F;
   min-height: 350px;
   display: flex;
-  width: 100%;
+  min-width: 100%;
   justify-content: center;
 }
 
 .footer__columns {
   padding-top: 60px;
   padding-bottom: 40px;
-  width: 90%;
+  min-width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -336,19 +339,19 @@ header, footer, img, figure, table{
 
 .footer__column-heading {
   color: white;
-  padding-bottom: 20px;
+  margin: 0;
+  padding:0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.footer__list ol{
   list-style-type: none;
 }
 
