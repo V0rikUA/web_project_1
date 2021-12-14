@@ -1,0 +1,7 @@
+.semitrasparent-effect-on-hover {
+  transition: opacity 1s ease-out;
+}
+
+.semitrasparent-effect-on-hover:hover {
+  opacity: 0.5;
+}
