@@ -11,7 +11,7 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/table/table.css);
-@import url(../blocks/freynman/freynman.css);
+@import url(../blocks/feynman/feynman.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/video/video.css);
@@ -40,10 +40,10 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/freynman/__title/freynman__title.css);
-@import url(../blocks/freynman/__subtitle/freynman__subtitle.css);
-@import url(../blocks/freynman/__link/freynman__link.css);
-@import url(../blocks/freynman/__image/freynman__image.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__image/feynman__image.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
